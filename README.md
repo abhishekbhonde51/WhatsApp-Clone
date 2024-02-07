@@ -22,5 +22,36 @@ To get started with the WhatsApp Clone project, follow these steps:
 
 1. **Clone the repository**:
 
-   ```bash
+   ```
    git clone https://github.com/yourusername/whatsapp_clone_flutter.git
+
+   cd whatsapp_clone_flutter
+
+   flutter pub get
+
+   flutter run
+```
+
+## Dependencies
+WhatsApp Clone relies on the following dependencies:
+
+Firebase: Authentication, real-time database, and cloud messaging.
+Provider: State management and dependency injection.
+Firebase Core & Authentication: Firebase authentication services.
+Firebase Firestore: Firebase real-time database.
+Firebase Cloud Messaging: Firebase cloud messaging for push notifications.
+Cached Network Image: Caching and displaying network images.
+Contributing
+Contributions to the WhatsApp Clone project are welcome! If you'd like to contribute, please follow these guidelines:
+
+## Fork the repository.
+Create your feature branch: git checkout -b feature-name.
+Commit your changes: git commit -am 'Add some feature'.
+Push to the branch: git push origin feature-name.
+Submit a pull request.
+License
+WhatsApp Clone is open-source software licensed under the MIT License.
+
+## Acknowledgements
+Thanks to the Flutter team for providing an amazing framework for building cross-platform mobile applications.
+Special thanks to the contributors and maintainers of the dependencies used in this project.
