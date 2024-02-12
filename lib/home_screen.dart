@@ -82,22 +82,22 @@ class _HomeScreenState extends State<HomeScreen> {
                             'https://avatars.githubusercontent.com/u/113115756?s=400&u=41efe0e5407a3a7ebc427052c2875cd0b0f7ac62&v=4'),
                       ),
                       title: Text('Abhishek Bhonde'),
-                      subtitle: Text("Hi there! "),
-                      trailing: Text('10:00 PM'),
+                      subtitle: Text("Missed call 10:00 PM"),
+                      trailing: Icon(Icons.call),
                     );
                   }),
               Text('Status'),
               ListView.builder(
                   itemCount: 100,
                   itemBuilder: (context, index) {
-                    return ListTile(
+                    return const ListTile(
                       leading: CircleAvatar(
                         backgroundImage: NetworkImage(
                             'https://avatars.githubusercontent.com/u/113115756?s=400&u=41efe0e5407a3a7ebc427052c2875cd0b0f7ac62&v=4'),
                       ),
                       title: Text('Abhishek Bhonde'),
                       subtitle: Text("Hi there! "),
-                      trailing: Text('10:00 PM'),
+                      trailing: Icon(Icons.call),
                     );
                   }),
               Text('Calls'),
