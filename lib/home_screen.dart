@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             child: Text('WhatsApp Web'),
                           ),
                           const PopupMenuItem(
-                            child: Text('Starred messages'),
+                            child: Text('Starred Message'),
                           ),
                           const PopupMenuItem(
                             child: Text('Settings'),
